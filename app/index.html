@@ -20,7 +20,7 @@
                 md-is-locked-open="$mdMedia('gt-sm')">
 
         <md-toolbar class="md-whiteframe-z1">
-            <h1>Users</h1>
+            <h1>Painters</h1>
         </md-toolbar>
 
         <md-list>
@@ -40,12 +40,13 @@
             <md-button class="menu" hide-gt-sm ng-click="vm.toggleList()" aria-label="Show User List">
                 <md-icon md-svg-icon="menu" ></md-icon>
             </md-button>
-            <h1>Angular Material - Starter App</h1>
+            <h1> About </h1>
         </md-toolbar>
 
         <md-content flex id="content">
             <md-icon md-svg-icon="{{vm.selected.avatar}}" class="avatar"></md-icon>
             <h2>{{vm.selected.name}}</h2>
+            <p>{{vm.selected.style}}</p>
             <p>{{vm.selected.content}}</p>
         </md-content>
 

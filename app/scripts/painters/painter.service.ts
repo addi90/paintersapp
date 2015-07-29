@@ -18,6 +18,7 @@
         var users = [
             {
                 avatar: "svg-1",
+                style: "Renaissance",
                 content: 'Renaissance painter, scientist, inventor, and more. Da Vinci is one of most famous painters for his iconic Mona Lisa and Last Supper.',
                 name: 'Leonardo Da Vinci'
             }
