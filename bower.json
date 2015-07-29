@@ -11,7 +11,8 @@
   "keywords": [
     "TypeScript",
     "Angular",
-    "bootstrap"
+    "Angular Material",
+    "Firebase"
   ],
   "license": "MIT",
   "ignore": [
