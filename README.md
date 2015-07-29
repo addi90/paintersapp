@@ -1,5 +1,5 @@
 # paintersapp
-App to show painters details using TypeScript, Gulp, Angular, Firebase, Angular Material
+App to show painters details using `TypeScript`, `Gulp`, `Angular`, `Firebase`, `Angular Material`
 
 Steps to see the app in action:
 
