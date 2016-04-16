@@ -2,6 +2,6 @@
 
 module painter.interfaces {
     export interface IPainterService {
-        loadAllPainters: () => angular.IPromise<painter.interfaces.IPainter>
+        loadAllPainters: () => angular.IPromise
     }
 }

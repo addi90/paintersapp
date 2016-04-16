@@ -15,7 +15,7 @@ gulp.task('ts', function(){
     .pipe(sourcemaps.init())
     .pipe(ts({
       noImplicitAny: true,
-      noExternalResolve: false,
+      noExternalResolve: true,
       removeComments: false,
       sortOutput: true,
       target: "ES5"
